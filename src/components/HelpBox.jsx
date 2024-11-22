@@ -14,6 +14,7 @@ function HelpBox({ title, text }) {
 // Comment
 // Comment 2
 // Comment 3
+// Comment 4
 
 HelpBox.propTypes = {
   title: string,
