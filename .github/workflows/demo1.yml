@@ -1,11 +1,12 @@
 name: Events Demo 1
 on:
   pull_request:
-    types: [opened, synchronize, reopened]
+    types: [opened]
   workflow_dispatch:
   push:
     branches:
       - main
+      - dev
     path-ignore:
       - '.github/workflows/**'
 
